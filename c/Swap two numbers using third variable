@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+
+{
+
+int a,b,c;
+
+printf("Enter numbers you want to swap");
+
+scanf("%d %d",&a,&b);
+
+c=a;
+
+a=b;
+
+b=c;
+
+printf( " Numbers after swap = %d %d",a,b);
+
+getch();
+
+}
