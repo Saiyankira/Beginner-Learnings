@@ -1,0 +1,49 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+{
+
+int a,b,c,d,e;
+
+printf(" Name of student - Shivansh Khankriyal);
+
+printf("Roll number - 1234567");
+
+printf("Enter marks in maths);
+
+scanf("%d",&a);
+
+printf("Enter marks in English");
+
+scanf("%d",&b);
+
+printf("Enter marks in C");
+
+scanf("%d",&c);
+
+printf("\subject \t\tmaximum marks \t\tmarks obtained");
+
+printf("\nMaths \t\t100  \t\t%d",a);
+
+printf("\nEnglish \t\t100 \t\t%d",b);
+
+printf("\nC \t\t\t100 \t\t%d",c);
+
+printf("\ntotal maximum marks =300");
+
+d=a+b+c;
+
+printf("Total marks obtained = %d",d);
+
+e=(d/300)*100;
+
+printf("Percentage = %d",e);
+
+getch();
+
+}
+
+
+
+You can enter marks and their total dynamically too using scanf function.
