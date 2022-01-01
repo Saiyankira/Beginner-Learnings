@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+printf("Enter a number ");
+scanf("%d",&a);
+printf("Enter second number");
+scanf("%d",&b);
+
+printf("Sum = %d",a+b);
+printf("Difference = %d",a-b);
+printf("Multiplication = %d",a*b);
+printf("Division = %d",a/b);\
+
+getch();
+}
