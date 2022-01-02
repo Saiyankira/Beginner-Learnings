@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+
+{
+
+int i,sum=0,marks[5];
+
+for (i=1;i<=5;i++)
+
+{
+
+scanf("%d",&marks[i]);
+
+sum=(sum*0)+marks[i];
+
+}
+
+printf("%d",sum);
+
+getch();
+
+}
