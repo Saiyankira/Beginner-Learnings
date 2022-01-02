@@ -1,0 +1,57 @@
+1- print numbers from 1-10
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i;
+for(i=1;i<=10;i++)
+{
+printf("%d",i);
+}
+getch();
+}
+
+
+2- Print numbers from 10-1
+
+void main()
+{
+int i;
+for(i=1;i>=1;i--)
+{
+printf("%d",i);
+}
+getch();
+}
+
+
+3- Print series 1,11,111,1111......n
+
+void main()
+{
+int a=1,i,b;
+printf("Enter number of times you want to print the series");
+scanf("%d",&b);
+for(i=1;i<=b;i++)
+{
+printf("%d",a);
+a=(a*10)+1;
+}
+getch();
+}
+
+
+4-Print series 1,12,123......n
+
+void main()
+{
+int a=0,i;
+for(i=1,i<=5;i++)
+{
+a=(a*10)+i;
+printf("%d",a);
+}
+getch();
+}
+
