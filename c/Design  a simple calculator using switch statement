@@ -1,0 +1,57 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+
+{
+
+in a,b;
+
+char c;
+
+printf("Enter your choice +.-.*,/");
+
+scanf("%c",&c);
+
+printf("Enter two numbers to perform operations on");
+
+scanf("%d %d",&a,&b);
+
+switch(c)
+
+{
+
+case '+':
+
+printf("Sum = %d",a+b);
+
+break;
+
+case '-':
+
+printf("Difference = %d"a-b);
+
+break;
+
+case '*':
+
+printf("Multiplication = %d",a*b);
+
+break;
+
+case '/':
+
+printf("Division = %d",a/b);
+
+break;
+
+default:
+
+printf("Invalid Key");
+
+}
+
+getch()
+
+}
